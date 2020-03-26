@@ -3,451 +3,451 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2600.0 154320.0 59.865671641791046]
 Rank: 0
 Sparsity: Infinity
-0 0 1 1 1
+0 1 2 2 1
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2400.0 121120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-1 0 1 1 0
+1 2 2 0 1
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2400.0 121120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-0 1 1 2 1
+1 2 2 0 1
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [3200.0 163320.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-1 0 1 1 1
+1 2 2 2 1
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-1 0 1 2 1
+2 2 2 0 1
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-0 2 1 1 1
+2 2 2 0 1
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 0 1
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 0 1
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-0 2 1 1 1
+2 2 2 0 1
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 0 1
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 0 1
 
 Generation: 11
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2500.0 126120.0 68.06794055201699]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 0 1
 
 Generation: 12
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [1500.0 118120.0 72.0863309352518]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 1
 
 Generation: 13
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [1500.0 118120.0 72.0863309352518]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 1
 
 Generation: 14
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [1500.0 118120.0 72.0863309352518]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 1
 
 Generation: 15
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [1500.0 118120.0 72.0863309352518]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 1
 
 Generation: 16
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [3300.0 168320.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 2 1
 
 Generation: 17
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [3300.0 168320.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 2 1
 
 Generation: 18
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [4000.0 170440.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 2 2 2 2
 
 Generation: 19
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 20
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 21
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 22
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 23
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 24
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 25
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 26
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 27
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 28
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 29
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 30
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-0 0 1 1 1
+2 0 2 0 0
 
 Generation: 31
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [4000.0 170440.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-0 0 1 1 1
+2 2 2 2 2
 
 Generation: 32
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 33
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 34
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 35
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 36
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 37
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 38
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 39
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 1 1 1
+2 0 2 0 0
 
 Generation: 40
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 41
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 42
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 43
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 44
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 45
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 46
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 47
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 Generation: 48
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [4000.0 170440.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 2 2 2 2
 
 Generation: 49
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 
 
 
@@ -456,27 +456,27 @@ Sparsity: Infinity
 
 Pareto Front of Subpopulation 0
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [800.0 116000.0 77.85234899328859]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 0 2 0 0
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [2800.0 152440.0 61.866883116883116]
 Rank: 0
-Sparsity: Infinity
-2 0 2 1 1
+Sparsity: 9491.136717349755
+0 0 2 2 2
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [3000.0 118240.0 68.9848308051342]
 Rank: 0
-Sparsity: Infinity
-2 0 2 1 1
+Sparsity: 6625.798254772073
+0 2 2 0 2
 Evaluated: T
-Fitness: [0.0 0.0 0.0]
+Fitness: [4000.0 170440.0 59.80350877192983]
 Rank: 0
 Sparsity: Infinity
-2 0 2 1 1
+2 2 2 2 2
