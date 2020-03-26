@@ -78,12 +78,12 @@ select.tournament.size		= 2
 
 
 # Use a statistics object which dumps the front
-stat =                                          ec.multiobjective.MultiObjectiveStatistics
+stat =                                          ecj.Stats
 stat.front =                                    $front.stat
 
 # We have our own evaluator and breeder
 eval =						ec.multiobjective.nsga2.NSGA2Evaluator
 breed =						ec.multiobjective.nsga2.NSGA2Breeder
 
-stat =                                          ecj.Stats
+
 eval.problem = ecj.Tester
