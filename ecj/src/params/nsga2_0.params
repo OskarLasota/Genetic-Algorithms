@@ -85,5 +85,5 @@ stat.front =                                    $front.stat
 eval =						ec.multiobjective.nsga2.NSGA2Evaluator
 breed =						ec.multiobjective.nsga2.NSGA2Breeder
 
-
+stat =                                          ecj.Stats
 eval.problem = ecj.Tester

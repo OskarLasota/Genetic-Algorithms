@@ -36,7 +36,7 @@ public class Tester extends Problem implements SimpleProblemForm {
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
         //System.out.println("setup");
-
+        // make dynamic changes here by creating new parameters
         
     }
 	
@@ -58,7 +58,7 @@ public class Tester extends Problem implements SimpleProblemForm {
 
         
         double[] objectives = ((MultiObjectiveFitness) indi.fitness).getObjectives();
-        System.out.println(cGenome.length);
+        //System.out.println(cGenome.length);
         objectives[0] = calculateCost(cGenome);    
         objectives[1] = calculatePenetration(cGenome);    
         objectives[2] = calculateEngagement(cGenome);  
@@ -77,7 +77,7 @@ public class Tester extends Problem implements SimpleProblemForm {
 			//System.out.println("genome : " + solution[i]);
 			pen += avgPen[i] * solution[i];
 		}
-		System.out.println("pen : " + pen);
+		//System.out.println("pen : " + pen);
 		return pen;
 	}
 	
@@ -97,7 +97,7 @@ public class Tester extends Problem implements SimpleProblemForm {
 				sumViews += views[i];
 			}
 		}
-		System.out.println("engagement : " + sumViews/sumEng);
+		//System.out.println("engagement : " + sumViews/sumEng);
 		return sumViews/sumEng;
 	}
 
@@ -109,7 +109,7 @@ public class Tester extends Problem implements SimpleProblemForm {
 			//System.out.println("cost : " + cost);
 			cost += cGenome[i] * avgCost[i];
 		}
-		System.out.println("cost : " + cost);
+		//System.out.println("cost : " + cost);
 		return cost;
 	}
 	
