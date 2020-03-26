@@ -1,0 +1,56 @@
+package ecj;
+
+public class Tester extends Problem implements SimpleProblemForm {
+
+
+    private int[] cGenome;    
+
+
+	
+	public static void main(String[] args) {
+		int amountOfChannels = 5;
+		String[] argo = new String[4];
+		argo[0] = "-file";
+		argo[1] = "src/nsga2_0.params";
+		argo[2] = "-p";
+		argo[3] = "pop.subpop.0.size="+amountOfChannels;
+
+		ec.Evolve.main(argo);
+	}
+
+    @Override
+    public void setup(final EvolutionState state, final Parameter base) {
+        super.setup(state, base);
+        //System.out.println("setup");
+
+        
+    }
+	
+	@Override
+	public void evaluate(EvolutionState state, Individual indi, int subpopulation, int threadnum) {
+        if(indi.evaluated) return;
+        if (!(indi instanceof IntegerVectorIndividual)) {
+            state.output.fatal("The individuals for this problem should be IntegerVectorIndividuals.");
+        }
+        int sum = 2;
+
+        IntegerVectorIndividual temp = (IntegerVectorIndividual) indi;
+        cGenome = temp.genome;
+               
+        /*
+         * where is the result stored?
+         * how do i put max budget?
+         */
+
+        
+        double[] objectives = ((MultiObjectiveFitness) indi.fitness).getObjectives();
+        System.out.println(cGenome.length);
+        objectives[0] = calculateCost(cGenome);    
+        objectives[1] = calculatePenetration(cGenome);    
+        objectives[2] = calculateEngagement(cGenome);    
+        ((MultiObjectiveFitness) indi.fitness).setObjectives(state, objectives);
+        indi.evaluated = true;
+    
+	}
+	
+}

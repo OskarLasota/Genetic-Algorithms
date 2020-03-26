@@ -1,0 +1,89 @@
+# Copyright 2010 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+# ec.EvolutionState
+# ==============================
+# We're using the standard initialization method
+init = 					ec.simple.SimpleInitializer
+# We're using the standard (empty) finalization method
+finish = 	        		ec.simple.SimpleFinisher
+# We're using the standard (empty) exchange method
+exch = 					ec.simple.SimpleExchanger
+# We're using standard breeding -- no cross-population breeding
+breed =					ec.simple.SimpleBreeder
+# We're using standard evaluation -- no coevolution
+eval =					ec.simple.SimpleEvaluator
+# We're using simple statistics
+stat =					ec.simple.SimpleStatistics
+# run for 51 generations, quit prematurely if I find something ideal
+generations =				50
+quit-on-run-complete =			true
+
+
+pop = 					ec.Population
+
+
+evalthreads = 				1
+breedthreads = 				1
+seed.0 = time
+checkpoint =				false
+checkpoint-modulo =                     1
+checkpoint-prefix = 				ec
+
+state = 				ec.simple.SimpleEvolutionState
+
+
+
+
+pop.subpops =				1
+pop.subpop.0 = 				ec.Subpopulation
+pop.subpop.0.species 		= ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.ind	= ec.vector.IntegerVectorIndividual
+pop.subpop.0.species.genome-size = 5
+pop.subpop.0.species.mutation-prob	= 0.04
+pop.subpop.0.species.crossover-type	= one
+pop.subpop.0.species.mutation-type = reset
+pop.subpop.0.species.fitness =				ec.multiobjective.nsga2.NSGA2MultiObjectiveFitness
+pop.subpop.0.species.fitness.num-objectives = 3
+pop.subpop.0.species.fitness.0.maximize = true
+pop.subpop.0.species.fitness.1.maximize = true
+pop.subpop.0.species.fitness.2.maximize = true
+
+pop.subpop.0.species.fitness.min.0 = 0.0
+pop.subpop.0.species.fitness.max.0 = 50000.0
+pop.subpop.0.species.fitness.min.1 = 0.0
+pop.subpop.0.species.fitness.max.1 = 5.5
+pop.subpop.0.species.fitness.min.2 = 0
+pop.subpop.0.species.fitness.max.2 = 50
+
+#pop.subpop.0.size = 5
+pop.subpop.0.duplicate-retries = 5
+pop.subpop.0.species.min-gene = 0
+pop.subpop.0.species.max-gene = 2
+
+
+stat.file				$out.stat
+
+
+
+
+
+pop.subpop.0.species.pipe			= ec.vector.breed.VectorMutationPipeline
+pop.subpop.0.species.pipe.source.0		= ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.source.0	= ec.select.TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.1	= ec.select.TournamentSelection
+
+select.tournament.size		= 2
+
+
+# Use a statistics object which dumps the front
+stat =                                          ec.multiobjective.MultiObjectiveStatistics
+stat.front =                                    $front.stat
+
+# We have our own evaluator and breeder
+eval =						ec.multiobjective.nsga2.NSGA2Evaluator
+breed =						ec.multiobjective.nsga2.NSGA2Breeder
+
+
+eval.problem = ecj.Tester
