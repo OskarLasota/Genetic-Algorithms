@@ -6,9 +6,6 @@ source : https://cs.gmu.edu/~eclab/projects/ecj/
 
 ECJ manual : https://cs.gmu.edu/~eclab/projects/ecj/manual.pdf
 
-to run :
-download : colt.jar file / possibly from https://gofile.io/?c=P6Dk1O
-
 download ecj package from source website
 
 add to buildpath
